@@ -401,7 +401,7 @@ const SecurityTab: React.FC = () => {
                                 <div className="text-center">
                                     <p className="text-xs text-gray-500 mb-1">One-time Token:</p>
                                     <code className="block text-2xl font-mono font-bold bg-white border border-orange-200 p-2 rounded-lg text-orange-600 tracking-widest">{generatedToken}</code>
-                                    <p className="text-[10px] text-gray-400 mt-2">Provide this to the student. They can enter it in Settings > Security.</p>
+                                    <p className="text-xs text-gray-400 mt-2">Provide this to the student. They can enter it in Settings {">"} Security.</p>
                                 </div>
                             )}
                         </div>
